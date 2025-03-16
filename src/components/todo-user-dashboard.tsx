@@ -51,7 +51,6 @@ export function TodoUserDashboard() {
 
     return (
         <div className="container py-4 d-flex flex-column align-items-center">
-            {/* User Profile Heading & Add Appointment Button */}
             <div className="d-flex justify-content-between align-items-center w-100" style={{ maxWidth: "600px" }}>
                 <h4 className=" fw-bold m-0">User Profile</h4>
                 <button 
@@ -62,8 +61,6 @@ export function TodoUserDashboard() {
                     <i className="bi bi-calendar-plus"></i> Add Appointment
                 </button>
             </div>
-
-            {/* User Profile Section */}
             {user && (
                 <div className="w-100 mt-3" style={{ maxWidth: "600px" }}>
                     <div className="p-4 bg-white shadow-sm rounded text-center">
@@ -80,7 +77,6 @@ export function TodoUserDashboard() {
                 </div>
             )}
 
-            {/* Appointments Section */}
             <div className="w-100 mt-4" style={{ maxWidth: "600px" }}>
                 <h4 className="text-dark fw-bold">Your Appointments</h4>
                 {tasks.length === 0 ? (
