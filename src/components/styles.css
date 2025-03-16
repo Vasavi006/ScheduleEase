@@ -1,0 +1,251 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #007bff !important;
+}
+
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.todo-card {
+    max-width: 400px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #343a40;
+    
+}
+
+.todo-text {
+    font-family: Arial, sans-serif;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: grid;
+    gap: 10px;
+}
+/* Full page background */
+.register-container {
+    height: 100vh;
+    background-color: #007bff;
+}
+
+/* Registration card */
+.register-card {
+    width: 350px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Title styling */
+.register-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #343a40;
+
+}
+
+/* Form label styling */
+.form-label {
+    font-weight: 600;
+    color: #212529;
+    display: block;
+    text-align: left
+}
+
+/* Register links */
+.register-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.register-links a {
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-links a:hover {
+    color: #007bff;
+}
+.auth-container {
+    background-color: #007bff; /* Full-page background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-card {
+    width: 350px;
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.auth-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #343a40; /* Dark shade */
+}
+
+.form-label {
+    font-size: 16px;
+    color: #212529;
+}
+
+.auth-btn {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.auth-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.auth-links a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #343a40; /* Dark shade */
+    transition: color 0.3s ease-in-out;
+}
+
+.auth-links a:hover {
+    color: #007bff; /* Blue hover effect */
+}
+
+
+.appointment-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.appointment-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #343a40;
+    display: block;
+    text-align: start;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.custom-link:hover {
+    color: #007bff;
+}
+/* .dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.add-task-btn {
+    font-size: 14px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.add-task-btn i {
+    margin-right: 5px;
+}
+
+.dashboard-main {
+    padding-top: 10px;
+}
+ */
+ .dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.dashboard-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.add-task-btn {
+    font-size: 14px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.add-task-btn i {
+    margin-right: 5px;
+}
+
+.dashboard-main {
+    padding-top: 10px;
+}
+
+.user-details {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
